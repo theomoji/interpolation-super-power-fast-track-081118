@@ -30,4 +30,5 @@ def display_rainbow(colors)
     colored << color_format
     index += 1
   end
+  puts colored.join(", ")
 end
